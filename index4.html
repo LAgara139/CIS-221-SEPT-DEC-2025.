@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fashion Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f7fa;
+            color: #333;
+        }
+        
+        h1,
+        h2 {
+            text-align: center;
+            color: darkblue;
+        }
+        
+        .items {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            width: 200px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        
+        .card:hover {
+            transform: scale(1.05);
+        }
+        
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        
+        table {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: white;
+        }
+        
+        th,
+        td {
+            border: 1px solid #444;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        th {
+            background-color: #dfe6ff;
+        }
+        
+        p {
+            width: 80%;
+            margin: 10px auto;
+            line-height: 1.5;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: gray;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Welcome to Fashion Store</h1>
+    <p style="text-align:center;">Your one-stop shop for trendy and affordable fashion. Explore our latest collections and grab amazing deals!</p>
+
+    <h2>Our Fashion Collection</h2>
+    <div class="items">
+        <div class="card">
+            <img src="shirt.jpg" alt="Stylish Shirt">
+            <b>Stylish Shirt</b><br>KSh 2000
+        </div>
+        <div class="card">
+            <img src="jeans.jpg" alt="Classic Jeans">
+            <b>Classic Jeans</b><br>KSh 2500
+        </div>
+        <div class="card">
+            <img src="shoes.jpg" alt="Trendy Shoes">
+            <b>Trendy Shoes</b><br>KSh 4000
+        </div>
+        <div class="card">
+            <img src="bag.jpg" alt="Designer Bag">
+            <b>Designer Bag</b><br>KSh 4500
+        </div>
+    </div>
+
+    <h2>Upcoming Sale Offers</h2>
+    <table>
+        <tr>
+            <th>Sale</th>
+            <th>Date</th>
+            <th>Discount</th>
+        </tr>
+        <tr>
+            <td>Black Friday</td>
+            <td>25th November 2025</td>
+            <td>Up to 50% Off</td>
+        </tr>
+        <tr>
+            <td>Christmas Sale</td>
+            <td>20th December 2025</td>
+            <td>Up to 30% Off</td>
+        </tr>
+        <tr>
+            <td>New Year Offer</td>
+            <td>1st January 2026</td>
+            <td>Buy 2 Get 1 Free</td>
+        </tr>
+    </table>
+
+    <h2>Why Shop With Us?</h2>
+    <p>
+        ✔ Affordable prices <br> ✔ Latest fashion trends <br> ✔ Quality guaranteed <br> ✔ Fast delivery anywhere in Kenya
+    </p>
+
+    <h2>Inventory Tracking</h2>
+    <table>
+        <tr>
+            <th>Item Name</th>
+            <th>Total Stock</th>
+            <th>Items Sold</th>
+            <th>Stock Left</th>
+            <th>Money Earned (KSh)</th>
+        </tr>
+        <tr>
+            <td>Stylish Shirt</td>
+            <td>100</td>
+            <td>70</td>
+            <td>30</td>
+            <td>14000</td>
+        </tr>
+        <tr>
+            <td>Classic Jeans</td>
+            <td>80</td>
+            <td>50</td>
+            <td>30</td>
+            <td>25000</td>
+        </tr>
+        <tr>
+            <td>Trendy Shoes</td>
+            <td>60</td>
+            <td>40</td>
+            <td>20</td>
+            <td>32000</td>
+        </tr>
+        <tr>
+            <td>Designer Bag</td>
+            <td>40</td>
+            <td>25</td>
+            <td>15</td>
+            <td>22500</td>
+        </tr>
+    </table>
+
+    <footer>
+        &copy; 2025 Fashion Store. All Rights Reserved.
+    </footer>
+
+</body>
+
+</html>
